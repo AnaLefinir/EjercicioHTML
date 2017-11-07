@@ -1,0 +1,86 @@
+h1
+{
+    font-size:42px;
+    color: rgb(161, 22, 22);
+    padding-top:10px;
+    text-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+  
+body 
+{ 
+    background:url("https://images8.alphacoders.com/730/730031.jpg") center center no-repeat; 
+    background-attachment: fixed;
+    background-size:100% auto;
+    background-color: #100000;
+    min-width: 1000px;
+    height: 100vh;
+}
+
+textarea 
+{
+    height: 250px;
+    line-height: 150%;
+    resize:vertical;
+}
+  
+button 
+{
+    max-width:450px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background:rgb(161, 22, 22);
+    border-radius:10px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    text-align:center;
+    transition: all 0.3s;
+    font-weight:600; 
+}
+  
+button:hover 
+{
+    
+   background:#3a3939; 
+}
+
+.title
+{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(161, 22, 22);
+    text-align: center;
+}
+.f-input::placeholder 
+{
+    color:white;
+    opacity:0.9;
+}
+  
+.f-input 
+{
+    background-color: transparent;
+    border:2px solid rgb(161, 22, 22);
+    transition: all 0.3s;
+    padding: 13px;
+    margin-bottom: 15px;
+    width:100%;
+    box-sizing: border-box;
+    color:white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 18px;
+    border-radius: 4px;
+    line-height: 22px;
+    text-align:left;
+}
+  
+.f-input:focus 
+{ 
+    border:2px solid #3a3939; 
+}
+  
