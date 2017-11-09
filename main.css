@@ -49,12 +49,6 @@ form input
     color: rgb(161, 22, 22);
 }
 
-.trailer
-{
-    background-color: magenta;
-    opacity: 1;
-}
-
 button {
     max-width: 70px;
     font-family: Arial, Helvetica, sans-serif;
